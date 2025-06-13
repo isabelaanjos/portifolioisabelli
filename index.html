@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devide-width" , initial-scale="1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/imgg/images (1).jpeg" alt="avatar da Maria" class="rounded-circle" width="150" heidth="150"
+            srcset="">
+        <p class="lead">Eu sou Isabeli_</p>
+        <h1>Eu sou estudante de programação</h1>
+        <p>Tenho 17 anos e faz dois anos que aprendo programação.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge text-bg-secondary"></p>
+            <p class="badge text-bg-secondary">CSS</p>
+            <p class="badge text-bg-secondary">JavaScript</p>
+            <p class="badge text-bg-secondary">Scratch</p>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+            crossorigin="anonymous"></script>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Aluraflix - Melhores Desenhos</h5>
+                        <p class="card-text">Um site que compila os melhores desenhos e destaca os principais códigos
+                            HTML e CSS para criá-los seria voltado para iniciantes e desenvolvedores intermediários
+                            interessados em design e programação.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o
+                            projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/imgg/2036758-lupa-cartoon-doodle-hand-drawn-concept-vector-kawaii-illustration-vetor.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Lupa esquisita</h5>
+                        <p class="card-text">Este projeto cria uma interação simples onde o objetivo é encontrar um
+                            ponto aleatório na tela. Um ponto é gerado aleatoriamente em um espaço de 400x400 pixels e
+                            se move suavemente por uma área limitada. O código desenha um círculo com base na posição do
+                            mouse, cujo tamanho depende da distância entre o mouse e o ponto aleatório. Quando o mouse
+                            se aproxima o suficiente (distância menor que 3 pixels), aparece a mensagem "Encontrei!" e a
+                            animação é interrompida.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o
+                            projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/imgg/palavras-aleatorias-22391679-290520212046.png" class="card-img-top" alt="Imagem do projeto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Palavra aleatória</h5>
+                        <p class="card-text">Este projeto exibe uma palavra aleatória na tela, mas ela é revelada
+                            gradualmente conforme o movimento do mouse. O código começa com a escolha de uma palavra
+                            aleatória de uma lista (como "caminhante", "caminho" ou "caminha"). A função palavraParcial
+                            controla a quantidade de letras da palavra que são exibidas com base na posição horizontal
+                            do mouse (mouseX). A cada movimento do mouse da esquerda para a direita, mais letras da
+                            palavra são reveladas, criando um efeito de "digitação" ou revelação progressiva.
+
+                            O fundo da tela é definido como branco e o texto é centralizado e exibido em preto, com um
+                            tamanho grande (64px). O código utiliza a função map para ajustar o número de letras
+                            exibidas dependendo da posição do mouse. O resultado é uma interação simples onde a palavra
+                            vai se formando à medida que o usuário move o mouse.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o
+                            projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--modal 1-->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Aluraflix - Melhores Desenhos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Um site que compila os melhores desenhos e destaca os principais códigos HTML e CSS para criá-los
+                        seria voltado para iniciantes e desenvolvedores intermediários interessados em design e
+                        programação. Esse tipo de site poderia oferecer:<br>
+
+                        Galeria de Exemplos de Desenhos: A página exibe uma coleção de projetos de design visual feitos
+                        usando apenas HTML e CSS. Os desenhos poderiam incluir elementos como figuras geométricas,
+                        ilustrações simples, padrões, animações e efeitos visuais criados com esses dois códigos.
+
+                        Destaque para Códigos: Para cada exemplo de desenho, o site pode disponibilizar o código-fonte
+                        em HTML e CSS. Isso pode incluir desde estruturas básicas até técnicas mais avançadas, como:
+
+                        Flexbox e Grid Layout para organizar elementos de forma responsiva.
+
+                        Transições e Animações CSS para dar vida aos desenhos.
+
+                        Uso de pseudo-classes (como :hover, :focus) para interatividade e efeitos de destaque.
+
+                        Propriedades como box-shadow, border-radius, gradient, entre outras, para criar efeitos visuais
+                        sofisticados.
+
+                        Tutorial Interativo: O site pode oferecer tutoriais interativos, permitindo que os visitantes
+                        modifiquem o código e visualizem as mudanças ao vivo, ajudando-os a aprender por meio da
+                        prática.
+
+                        Recursos e Dicas: Dicas sobre melhores práticas de CSS e HTML, como otimizar o código, evitar
+                        redundâncias e garantir a compatibilidade com diferentes navegadores.</p>
+                    <img src="img/projeto-1.png" alt="imagem representativa do projeto de uma biblioteca">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://isabelaanjos.github.io/aluraflixisa/">Ver projeto ao vivo</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--modal 2-->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Lupa esquisita</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto cria uma interação visual em que o objetivo é encontrar um ponto aleatório na tela.
+                        O ponto é gerado inicialmente em uma posição aleatória dentro de uma área de 400x400 pixels e, a
+                        cada quadro, o ponto se move suavemente de maneira aleatória. A movimentação do ponto é
+                        controlada pelas funções random(-5, 5), que ajustam sua posição nas direções X e Y, e o
+                        constrain garante que o ponto permaneça dentro dos limites da tela (0 a 400 pixels em ambas as
+                        direções).
+
+                        Enquanto isso, o código desenha um círculo na posição do mouse, e o tamanho desse círculo varia
+                        com base na distância entre o mouse e o ponto aleatório gerado. A cada movimento do mouse, o
+                        círculo aumenta ou diminui conforme a proximidade entre a posição do mouse e o ponto, criando
+                        uma sensação de "caça" ao ponto.
+
+                        Quando a distância entre o mouse e o ponto se torna menor que 3 pixels, o código exibe a
+                        mensagem "Encontrei!" no centro da tela, e a função noLoop() é chamada para parar a animação, ou
+                        seja, o movimento do ponto é interrompido e o jogo/experiência chega ao fim.
+
+                        Em resumo, este projeto cria uma dinâmica simples de busca, onde o usuário tenta encontrar o
+                        ponto gerado aleatoriamente, interagindo com a tela ao mover o mouse. A animação é interrompida
+                        assim que o ponto é encontrado, proporcionando um desafio visual rápido e envolvente.
+                    </p>
+                    <img src="img/imgg/2036758-lupa-cartoon-doodle-hand-drawn-concept-vector-kawaii-illustration-vetor.jpg" alt="imagem representativa do projeto de uma biblioteca">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="">Ver projeto ao vivo</a>
+                <a href="">Ver código do projeto</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!--modal 3-->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Palavra aleatória</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto cria uma interação visual onde uma palavra aleatória é revelada progressivamente
+                        conforme o movimento do mouse. O funcionamento básico é o seguinte:
+
+                        Escolha Aleatória da Palavra: Ao iniciar o programa, uma palavra é escolhida aleatoriamente de
+                        um conjunto de palavras pré-definidas (como "caminhante", "caminho" ou "caminha"). A função
+                        palavraAleatoria é responsável por fazer essa seleção.
+
+                        Revelação da Palavra: A função palavraParcial controla quantas letras da palavra são exibidas,
+                        dependendo da posição do mouse na tela. Ela usa a função map para mapear a posição horizontal do
+                        mouse (mouseX) para a quantidade de letras que devem ser mostradas. O valor de mouseX é usado
+                        para determinar o número de letras visíveis, de forma que, à medida que o mouse se move da
+                        esquerda para a direita (de 0 a 400 pixels), mais letras da palavra são exibidas.
+
+                        Função de Desenho: Dentro da função draw, que é chamada continuamente pelo p5.js, o fundo da
+                        tela é sempre reiniciado para branco com a função inicializaCores. Em seguida, a palavra parcial
+                        (ou seja, a parte da palavra que deve ser mostrada) é desenhada na tela com a função text. O
+                        texto é centralizado na tela com a posição 200, 200 e exibido com uma fonte grande de 64px.
+
+                        Interação Visual: O resultado é um efeito visual interessante em que, dependendo da posição do
+                        mouse, o usuário vê uma "revelação" gradual da palavra. Quando o mouse está à esquerda, apenas a
+                        primeira letra da palavra é visível. À medida que o mouse se move para a direita, mais letras
+                        vão aparecendo até que a palavra completa seja revelada.
+
+                        O código usa conceitos básicos do p5.js, como createCanvas, text, textAlign, e manipulação de
+                        cores e fontes. A interação com o movimento do mouse cria uma experiência dinâmica e simples,
+                        tornando o projeto ideal para demonstrar como eventos de entrada do usuário podem ser usados
+                        para controlar o comportamento visual em tempo real.</p>
+                    <img src="img/imgg/palavras-aleatorias-22391679-290520212046.png" alt="imagem representativa do projeto de uma biblioteca">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="">Ver projeto ao vivo</a>
+                <a href="">Ver código do projeto</a>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://editor.p5js.org/00001100586519sp/sketches">GitHub</a>
+        </div>
+        <p class="my-5 text-center">Copyright 2025. Produzido por Maria Isabeli</p>
+
+    </footer>
+    <script> src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"</script>
+</body>
+
+</html>
